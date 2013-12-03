@@ -12,10 +12,12 @@
 <body>
     <div>
         @ViewBag.Greeting Hello world (from the view)
-        <p>We 're going to have an exciting party.<br />
+        <p>
+            We 're going to have an exciting party.<br />
             (To do: sell it better .Add picture or something.)
-
         </p>
+        @Html.ActionLink("RSVP Now","RsvpForm")
+       
     </div>
 </body>
 </html>
